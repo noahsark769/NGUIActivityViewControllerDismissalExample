@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let text: String
+    let didTap: () -> Void
+
     var body: some View {
-        Text("Hello, World!")
+        Button(text) {
+            self.didTap()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct ImageWithShareView: View {
+    var body: some View {
+        Text("Yo")
     }
 }
