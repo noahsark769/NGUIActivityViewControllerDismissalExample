@@ -4,3 +4,5 @@ This demonstrates an issue with UIActivityViewControllers presented by modally p
 To reproduce the issue, run the app from this project and tap on the two buttons, then tap "Save Image". Notice that the second, modally presented view controller dismisses incorrectly.
 
 Note: This project also reproduces the same issue: [https://github.com/iMacHumphries/TestShareSheet](https://github.com/iMacHumphries/TestShareSheet)
+
+- [https://twitter.com/noahsark769/status/1274074752634679296](https://twitter.com/noahsark769/status/1274074752634679296)
